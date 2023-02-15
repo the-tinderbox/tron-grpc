@@ -1,7 +1,7 @@
 package address
 
 import (
-	"github.com/fullstackwang/tron-grpc/abi"
+	"github.com/the-tinderbox/tron-grpc/abi"
 )
 
 type addressTranslator struct{}

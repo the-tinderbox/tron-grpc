@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/fullstackwang/tron-grpc/abi"
-	"github.com/fullstackwang/tron-grpc/address"
-	"github.com/fullstackwang/tron-grpc/client"
-	"github.com/fullstackwang/tron-grpc/core"
-	"github.com/fullstackwang/tron-grpc/tx"
+	"github.com/the-tinderbox/tron-grpc/abi"
+	"github.com/the-tinderbox/tron-grpc/address"
+	"github.com/the-tinderbox/tron-grpc/client"
+	"github.com/the-tinderbox/tron-grpc/core"
+	"github.com/the-tinderbox/tron-grpc/tx"
 	"math/big"
 )
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MODULE_OPT="--go_opt=module=github.com/fullstackwang/tron-grpc --go-grpc_opt=module=github.com/fullstackwang/tron-grpc"
+MODULE_OPT="--go_opt=module=github.com/the-tinderbox/tron-grpc --go-grpc_opt=module=github.com/the-tinderbox/tron-grpc"
 
 rm -rf core api
 

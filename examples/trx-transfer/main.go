@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"encoding/hex"
-	"github.com/fullstackwang/tron-grpc/client"
-	"github.com/fullstackwang/tron-grpc/trx"
+	"github.com/the-tinderbox/tron-grpc/client"
+	"github.com/the-tinderbox/tron-grpc/trx"
 	"google.golang.org/grpc"
 	"log"
 )

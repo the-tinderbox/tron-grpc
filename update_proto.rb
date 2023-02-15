@@ -5,7 +5,7 @@ require "fileutils"
 $proto_dir = File.join(Dir.pwd, "proto")
 
 def copy_proto(path)
-    content = File.read(path).gsub(/go_package\s*=\s*"github.com\/tronprotocol\/grpc-gateway/, "go_package = \"github.com/fullstackwang/tron-grpc")
+    content = File.read(path).gsub(/go_package\s*=\s*"github.com\/tronprotocol\/grpc-gateway/, "go_package = \"github.com/the-tinderbox/tron-grpc")
 
     dst = File.join($proto_dir, path)
     FileUtils.mkdir_p(File.dirname(dst))

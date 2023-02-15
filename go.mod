@@ -1,4 +1,4 @@
-module github.com/fullstackwang/tron-grpc
+module github.com/the-tinderbox/tron-grpc
 
 go 1.19
 

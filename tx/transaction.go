@@ -5,9 +5,9 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"fmt"
-	"github.com/fullstackwang/tron-grpc/api"
-	"github.com/fullstackwang/tron-grpc/core"
 	"github.com/golang/protobuf/proto"
+	"github.com/the-tinderbox/tron-grpc/api"
+	"github.com/the-tinderbox/tron-grpc/core"
 	"time"
 )
 

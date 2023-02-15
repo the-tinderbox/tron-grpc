@@ -3,9 +3,9 @@ package client
 import (
 	"context"
 	"fmt"
-	"github.com/fullstackwang/tron-grpc/wallet"
+	"github.com/the-tinderbox/tron-grpc/wallet"
 
-	"github.com/fullstackwang/tron-grpc/api"
+	"github.com/the-tinderbox/tron-grpc/api"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 	"time"

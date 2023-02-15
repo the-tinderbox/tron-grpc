@@ -6,9 +6,9 @@ import (
 	"encoding/hex"
 	"fmt"
 	"github.com/dustinxie/ecc"
-	"github.com/fullstackwang/tron-grpc/address"
-	"github.com/fullstackwang/tron-grpc/core"
 	"github.com/golang/protobuf/proto"
+	"github.com/the-tinderbox/tron-grpc/address"
+	"github.com/the-tinderbox/tron-grpc/core"
 	"golang.org/x/crypto/sha3"
 	"math/big"
 )

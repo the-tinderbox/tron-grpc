@@ -8,7 +8,7 @@ package api
 
 import (
 	context "context"
-	core "github.com/fullstackwang/tron-grpc/core"
+	core "github.com/the-tinderbox/tron-grpc/core"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

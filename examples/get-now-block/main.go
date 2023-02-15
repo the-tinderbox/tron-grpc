@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"encoding/json"
-	"github.com/fullstackwang/tron-grpc/api"
-	"github.com/fullstackwang/tron-grpc/client"
+	"github.com/the-tinderbox/tron-grpc/api"
+	"github.com/the-tinderbox/tron-grpc/client"
 	"google.golang.org/grpc"
 	"log"
 )
