@@ -80,6 +80,10 @@ func NewErc20(client *client.Client, addr address.Address) *Erc20 {
 	}
 }
 
+func (c *Erc20) DecodeResult(result [][]byte, method string) ([]any, error) {
+	return c.contract.abiMethods[method].OutputDecoder.Decode(result)
+}
+
 func (c *Erc20) Name(ctx context.Context) (string, error) {
 	ret, err := c.name(ctx)
 	if err != nil {
